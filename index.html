@@ -53,7 +53,7 @@
             _CaptionTransitions["RTTL|BR"] = { $Duration: 600, x: -0.6, y: -0.6, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInCubic }, $Opacity: 2, $Round: { $Rotate: 0.8} };
 
             var options = {
-                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
                 $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
                 $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
                 $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
@@ -152,46 +152,46 @@
             <div>
                 <img u=image src="img/landscape/02.jpg" />
                 <div u="thumb">Do you know this is text format thumbnail?</div>
-                <div u="caption" t="MCLIP|L" style="position: absolute; top: 105px; left: 100px; width: 400px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">This is 'MCLIP|L' caption transition</div>
-                <div u="caption" t="LISTH|L" style="position: absolute; top: 165px; left: 100px; width: 400px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">This is 'LISTH|L' caption transition</div>
+                <!--<div u="caption" t="MCLIP|L" style="position: absolute; top: 105px; left: 100px; width: 400px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">This is 'MCLIP|L' caption transition</div>
+                <div u="caption" t="LISTH|L" style="position: absolute; top: 165px; left: 100px; width: 400px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">This is 'LISTH|L' caption transition</div> -->
             </div>
             <div>
                 <img u=image src="img/landscape/03.jpg" />
                 <div u="thumb">Do you notice the navigator is in multiline?</div>
-                <div u="caption" t="WAVE|L" t2="T" style="position: absolute; top: 135px; left: 450px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">WAVE|L</div>
+                <!--<div u="caption" t="WAVE|L" t2="T" style="position: absolute; top: 135px; left: 450px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">WAVE|L</div>
                 <div u="caption" t="WAVE|L" t2="T" d="-1150" style="position: absolute; top: 135px; left: 250px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">WAVE|L</div>
-                <div u="caption" t="WAVE|L" t2="T" d="-1150" style="position: absolute; top: 135px; left: 50px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">WAVE|L</div>
+                <div u="caption" t="WAVE|L" t2="T" d="-1150" style="position: absolute; top: 135px; left: 50px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">WAVE|L</div>-->
             </div>
             <div>
                 <img u=image src="img/landscape/04.jpg" />
                 <div u="thumb">Do you like navigator to act by mouse hover?</div>
-                <div u="caption" t="JUMPDN|R" t2="B" style="position: absolute; top: 135px; left: 50px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">JUMPDN|R</div>
+                <!--<div u="caption" t="JUMPDN|R" t2="B" style="position: absolute; top: 135px; left: 50px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">JUMPDN|R</div>
                 <div u="caption" t="JUMPDN|R" t2="B" d="-850" style="position: absolute; top: 135px; left: 250px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">JUMPDN|R</div>
-                <div u="caption" t="JUMPDN|R" t2="B" d="-850" style="position: absolute; top: 135px; left: 450px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">JUMPDN|R</div>
+                <div u="caption" t="JUMPDN|R" t2="B" d="-850" style="position: absolute; top: 135px; left: 450px; width: 100px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">JUMPDN|R</div>-->
             </div>
             <div>
                 <img u=image src="img/landscape/01.jpg" />
                 <div u="thumb">Do you notice arrows appear when mouse over?</div>
-                <div u="caption" t="DDG|TR" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">DDG|TR</div>
-                <div u="caption" t="DODGEDANCE|L" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">DODGEDANCE|L</div>
+                <!--<div u="caption" t="DDG|TR" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">DDG|TR</div>
+                <div u="caption" t="DODGEDANCE|L" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">DODGEDANCE|L</div>-->
             </div>
             <div>
                 <img u=image src="img/landscape/02.jpg" />
                 <div u="thumb">Do you notice the slideshow plays outside?</div>
-                <div u="caption" t="FLUTTER|L" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">FLUTTER|L</div>
-                <div u="caption" t="TORTUOUS|VB" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">TORTUOUS|VB</div>
+                <!--<div u="caption" t="FLUTTER|L" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">FLUTTER|L</div>
+                <div u="caption" t="TORTUOUS|VB" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">TORTUOUS|VB</div>-->
             </div>
             <div>
                 <img u=image src="img/landscape/03.jpg" />
                 <div u="thumb">Do you know there are <a href="../development/tool-slideshow-transition-viewer.html">360+ slideshow transitions</a>?</div>
-                <div u="caption" t="FADE" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">FADE</div>
-                <div u="caption" t="ZMF|10" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">ZMF|10</div>
+                <!--<div u="caption" t="FADE" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">FADE</div>
+                <div u="caption" t="ZMF|10" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">ZMF|10</div>-->
             </div>
             <div>
                 <img u=image src="img/landscape/04.jpg" />
                 <div u="thumb">Do you know there are <a href="../development/tool-caption-transition-viewer.html">390+ caption transitions</a>?</div>
-                <div u="caption" t="RTT|10" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">RTT|10</div>
-                <div u="caption" t="RTTL|BR" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">RTTL|BR</div>
+                <!--<div u="caption" t="RTT|10" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">RTT|10</div>
+                <div u="caption" t="RTTL|BR" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">RTTL|BR</div>-->
             </div>
         </div>
 

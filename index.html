@@ -129,12 +129,16 @@
 
     <script>
     function update(t) {
-        print "hi"
+        document.form1.text1.value = t;
     }
     </script>
     <!-- Jssor Slider Begin -->
     <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
-    <div id="texas">You clicked the Republic of Texas!</div>
+    <FORM NAME="form1">
+    <b>Clicked Item:</b>
+    <input TYPE="text" NAME="text1" VALUE="Please select an item.">
+    </form>
+
     <div id="slider1_container" style="position: relative; width: 600px;
         height: 300px;">
 
@@ -154,7 +158,8 @@
             <div>
                 <img u=image src="img/landscape/01.jpg" usemap="#img1map"/>
                 <map id="imgmap" name="img1map">
-                    <area alt="" title="" href="#" shape="rect" coords="3,1,108,78" item="texas", id="texasArea" onMouseOver="window.status='Service Department'"/>
+                    <area alt="" title="" href="#" shape="rect" coords="3,1,108,78" item="texas", id="texasArea" onMouseOver="window.status='Service Department'" onClick="update('Top Left')"/>
+                    <area alt="" title="" href="#" shape="rect" coords="504,67,587,18" onClick="update('Top Right')"/>
                 </map>
                 <div u="thumb">We can add thumbnails here if we want (although it may not make sense to?)</div>
                 
